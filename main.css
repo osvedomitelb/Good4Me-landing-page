@@ -1,0 +1,1067 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+body #wrapper {
+
+}
+
+/*************************popUp Section**************************/
+
+
+body #wrapper #popUpSection {
+    background-color: #eb5017;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+body #wrapper #popUpSection span {
+    padding: 10px 60px;
+    font-size: 12px;
+}
+
+/*************************Header Section**************************/
+
+body #wrapper header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body #wrapper header .logoPicture {
+    padding: 20px 0 10px 20px;
+}
+
+body #wrapper header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+body #wrapper header nav ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+body #wrapper header nav ul li a:hover {
+    cursor: pointer;
+}
+
+body #wrapper header div {
+    margin-right: 60px;
+}
+
+body #wrapper header .menuIcon {
+    display: none;
+}
+
+body #wrapper header .headerIcon {
+    width: 22px;
+    height: 22px;
+    vertical-align: center;
+    padding: 0 5px;
+}
+
+/*************************mainProduct Section**************************/
+
+body #wrapper main #mainProductSection {
+    background-image: url("assets/backgroundOne.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+    height: 641px;
+}
+
+body #wrapper main #mainProductSection h3 {
+    font-size: 36px;
+    position: relative;
+    color: #eb5017;
+    left: 85px;
+    margin-bottom: 0;
+    margin-top: 150px;
+}
+
+body #wrapper main #mainProductSection h2 {
+    position: relative;
+    font-size: 56px;
+    left: 267px;
+    margin: 20px 0;
+}
+
+body #wrapper main #mainProductSection span {
+    max-width: 500px;
+    position: relative;
+    left: 250px;
+    color: gray;
+}
+
+body #wrapper main #mainProductSection button {
+    max-width: 500px;
+    position: relative;
+    left: 47px;
+    background-color: #eb5017;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin: 20px 0;
+}
+
+body #wrapper main #mainProductSection button:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+body #wrapper main #cloudsPictureOne {
+    margin-top: -115px;
+    width: 100%;
+}
+
+/*************************good4meDeal Section**************************/
+
+body #wrapper main #good4meDeal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body #wrapper main #good4meDeal h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+body #wrapper main #good4meDeal span {
+    max-width: 500px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+body #wrapper main #good4meDeal .red-line {
+    width: 120px;
+    height: 5px;
+    display: inline-block;
+    background-color: #eb5017;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+body #wrapper main #good4meDeal #good4meDealProducts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body #wrapper main #good4meDeal #good4meDealProducts div {
+    display: flex;
+    flex-direction: column;
+    /*margin: 20px 20px;*/
+    padding: 10px;
+    width: 20%;
+}
+
+body #wrapper main #good4meDeal #good4meDealProducts div:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px #eb5017;
+    color: #eb5017;
+    transition: 1.5s;
+}
+
+body #wrapper main #good4meDeal #good4meDealProducts div img {
+    max-width: 313px;
+    max-height: 320px;
+}
+
+body #wrapper main #good4meDeal #good4meDealProducts div span {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*************************delivery Section**************************/
+
+body #wrapper main  #deliveryInformation {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+body #wrapper main #deliveryInformation div {
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+}
+
+body #wrapper main #deliveryInformation div img {
+    width: 60px;
+    height: 60px;
+}
+
+body #wrapper main #deliveryInformation div h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+body #wrapper main #deliveryInformation div span {
+    font-size: 12px;
+    color: gray;
+    max-width: 200px;
+}
+
+
+/*************************takeControlOfYourHealth Section**************************/
+
+body #wrapper main #takeControlOfYourHealth {
+    display: flex;
+    justify-content: center;
+
+    background-color: #FFF8F6;
+}
+
+/*body #wrapper main #takeControlOfYourHealth div {*/
+/*    max-width: 30%;*/
+/*}*/
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:auto;
+    padding: 60px;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo h2 {
+    font-size: 36px;
+    max-width: 320px;
+    margin: 10px 10px 10px 0;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo p {
+    font-size: 12px;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo button {
+    width: 200px;
+    background-color: #FFF8F6;
+    padding: 10px 20px;
+    border: 2px solid #eb5017;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 1px #eb5017;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthImgOne {
+    display: flex;
+    flex-direction: column;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthImgOne img {
+    max-width: 400px;
+    max-height: 300px;
+    margin: 20px;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthImgTwo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthImgTwo img {
+    max-width: 500px;
+    max-height: 550px;
+    margin: auto 0;
+}
+
+/*************************ourProducts Section**************************/
+
+body #wrapper main #ourProducts {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+}
+
+body #wrapper main #ourProducts h2 {
+    text-align: center;
+}
+
+body #wrapper main #ourProducts #ourProductsItems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body #wrapper main #ourProducts #ourProductsItems div {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    max-height: 300px;
+    padding: 10px;
+}
+
+body #wrapper main #ourProducts #ourProductsItems div:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px #eb5017;
+    color: #eb5017;
+    transition: 1.5s;
+}
+
+body #wrapper main #ourProducts #ourProductsItems div img {
+    max-width: 313px;
+    max-height: 300px;
+}
+
+body #wrapper main #ourProducts #ourProductsItems div span {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+body #wrapper main #ourProducts #ourProductsItems div .pricesChange {
+    display: flex;
+    font-size: 12px;
+    margin: auto;
+}
+
+body #wrapper main #ourProducts #ourProductsItems div .pricesChange .pricesChangeOne {
+    color: #eb5017;
+}
+
+
+body #wrapper main #ourProducts #ourProductsItems div .pricesChange .pricesChangeTwo {
+    margin-left: 10px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+body #wrapper main #ourProducts #viewAllProductsBtn {
+    width: 200px;
+    background-color: #FFF;
+    padding: 10px 20px;
+    border: 2px solid #eb5017;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+body #wrapper main #ourProducts #viewAllProductsBtn:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px #eb5017;
+    color: #eb5017;
+    transition: 1.5s;
+}
+/*************************realReviews Section**************************/
+
+body #wrapper main .realReviewsBackground {
+    width: 100%;
+}
+
+body #wrapper main #realReviews {
+    background-color: #FFF8F6;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body #wrapper main #realReviews #realReviewsSections {
+    display: flex;
+    justify-content: center;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionLeft {
+    width: 30%;
+    text-align: start;
+    max-height: 600px;
+    padding-top: 100px;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionLeft h3 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionLeft h2 {
+    color: #eb5017;
+    margin: 10px 0;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionLeft #realReviewsImg img {
+    width: 10px;
+    height: 10px;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionLeft p {
+    max-width: 400px;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionLeft span {
+    color: #eb5017;
+    margin-top: 20px;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsButtons button {
+    margin: 10px 5px;
+    width: 30px;
+    height: 30px;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsButtons button:hover {
+    border: 2px solid #eb5017;
+    color: #eb5017;
+    cursor: pointer;
+    transition: .5s;
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionRight {
+
+
+}
+
+body #wrapper main #realReviews #realReviewsSections #realReviewsSectionRight img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/*************************shopAll Section**************************/
+
+body #wrapper main #shopAll {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+body #wrapper main #shopAll h2 {
+    text-align: center;
+}
+
+body #wrapper main #shopAll #shopAllItems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body #wrapper main #shopAll #shopAllItems div {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    max-height: 400px;
+    padding: 10px;
+}
+
+body #wrapper main #shopAll #shopAllItems div img {
+    aspect-ratio: 10/9;
+}
+
+body #wrapper main #shopAll #shopAllItems div:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px #eb5017;
+    color: #eb5017;
+    transition: 1.5s;
+}
+
+body #wrapper main #shopAll #shopAllItems div img {
+    max-width: 313px;
+    max-height: 250px;
+}
+
+body #wrapper main #shopAll #shopAllItems div span {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+body #wrapper main #shopAll #shopAllItems div .pricesChange {
+    display: flex;
+    font-size: 12px;
+    margin: auto;
+}
+
+body #wrapper main #shopAll #shopAllItems div .pricesChange .pricesChangeOne {
+    color: #eb5017;
+}
+
+
+body #wrapper main #shopAll #shopAllItems div .pricesChange .pricesChangeTwo {
+    margin-left: 10px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+body #wrapper main #shopAll #shopAllProductsBtn {
+    width: 200px;
+    background-color: #FFF;
+    padding: 10px 20px;
+    border: 2px solid #eb5017;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+body #wrapper main #shopAll #shopAllProductsBtn:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px #eb5017;
+    color: #eb5017;
+    transition: 1.5s;
+}
+
+
+/*************************latestNews Section**************************/
+
+
+body #wrapper main #latestNews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+body #wrapper main #latestNews h2 {
+    text-align: center;
+}
+
+body #wrapper main #latestNews #latestNewsElements {
+    display: flex;
+    justify-content: space-around;
+}
+
+body #wrapper main #latestNews #latestNewsElements div {
+    width: 30%;
+    text-align: center;
+    margin: 40px 0;
+    padding: 10px;
+    align-items: center;
+}
+
+body #wrapper main #latestNews #latestNewsElements div:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px #eb5017;
+    color: #eb5017;
+    transition: 1.5s;
+}
+
+body #wrapper main #latestNews #latestNewsElements div img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+body #wrapper main #latestNews #latestNewsElements div span {
+    font-size: 12px;
+    color: #eb5017;
+}
+
+body #wrapper main #latestNews #latestNewsElements div h3 {
+
+}
+
+body #wrapper main #latestNews #latestNewsElements div p {
+    font-size: 12px;
+    color: gray;
+}
+
+body #wrapper main #latestNews #latestNewsElements div button {
+    width: 150px;
+    background-color: #eb5017;
+    padding: 10px 20px;
+    border: 2px solid #eb5017;
+    margin: 30px 0;
+    font-weight: bold;
+    color: white;
+}
+
+body #wrapper main #latestNews #latestNewsElements div button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #eb5017;
+    transition: 1s;
+}
+
+
+/*************************good4meSlider Section**************************/
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSlider {
+    margin-top: 40px;
+}
+
+body #wrapper main #good4meSlider h2 {
+    text-align: center;
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider div {
+    margin: 0 auto 20px auto;
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .slide {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .slide:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.5) inset;
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .img-1 {
+    background-image: url("assets/good4MeSliderOne.png");
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .img-2 {
+    background-image: url("assets/good4MeSliderTwo.png");
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .img-3 {
+    background-image: url("assets/good4MeSliderThree.png");
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .img-4 {
+    background-image: url("assets/good4MeSliderFour.png");
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .img-5 {
+    background-image: url("assets/good4MeSliderFive.png");
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .img-6 {
+    background-image: url("assets/good4MeSliderSix.png");
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .slide .slide-img a {
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+}
+
+body #wrapper main #good4meSlider .good4meSliderContainer .good4meSliderSubContainer .good4meSliderSubContainerWrapper .good4meSliderMy-Slider .slide .slide-img a:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*************************newsLetterAndLinks Section**************************/
+
+body #wrapper main #newsLetterAndLinks {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF8F6;
+    padding-bottom: 40px;
+}
+
+body #wrapper main #newsLetterAndLinks .realReviewsBackground {
+    width: 100%;
+}
+
+body #wrapper main #newsLetterAndLinks #newsLetterAndLinksSection {
+    display: flex;
+}
+
+body #wrapper main #newsLetterAndLinks #newsLetterAndLinksSection .newsLetterAndLinksDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDiv h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDiv span {
+    font-size: 12px;
+    color: gray;
+    max-width: 300px;
+    text-align: center;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDivWithForm form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 400px;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDivWithForm input:nth-child(1) {
+    background-color: #FFF8F6;
+    border: none;
+    color: black;
+    letter-spacing: 1px;
+    min-width: 200px;
+    padding: 5px 0 5px 20px;
+
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDivWithForm  input:nth-child(1)::placeholder {
+    color: black;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDivWithForm input:nth-child(2) {
+    border: none;
+    background-color: #FFF8F6;
+    color: #eb5017;
+    text-decoration: underline;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDivWithForm input:nth-child(2):hover {
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 2px #eb5017;
+    color: #eb5017;
+    transition: 1.5s;
+
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDivWithForm hr {
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDiv ul {
+    padding: 0;
+    margin: 0;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDiv ul li {
+    list-style: none;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDiv ul li a {
+    margin:auto;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDiv li a::after {
+    color: black;
+}
+
+/*************************footer Section**************************/
+
+body #wrapper footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid gray;
+    background-color: #FFF8F6;
+}
+
+
+
+/*************************Media queries**************************/
+
+@media screen and (max-width: 1035px) {
+    body #wrapper header nav ul {
+       display: none;
+    }
+
+    body #wrapper header .menuIcon {
+        display: inline;
+    }
+
+    body #wrapper main #mainProductSection {
+        background-image: url("assets/background_small.PNG");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+    }
+
+    body #wrapper main #mainProductSection h3 {
+        font-size: 26px;
+        position: absolute;
+        color: #eb5017;
+        margin-top: 150px;
+        left: 100px;
+    }
+
+    body #wrapper main #mainProductSection h2 {
+        position: absolute;
+        font-size: 38px;
+        margin-top: 200px;
+        left: 100px;
+
+    }
+
+    body #wrapper main #mainProductSection span {
+        max-width: 500px;
+        position: absolute;
+        color: #eb5017;
+        margin-top: 300px;
+        left: 100px;
+        font-weight: bold;
+    }
+
+    body #wrapper main #mainProductSection button {
+        position: absolute;
+        margin-top: 400px;
+        left: 100px;
+    }
+
+    body #wrapper main #takeControlOfYourHealth {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        flex-direction: column;
+        background-color: #FFF8F6;
+    }
+
+    body #wrapper main #takeControlOfYourHealth div {
+        width: 60%;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo{
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+        padding: 60px;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo h2 {
+        font-size: 36px;
+        max-width: 500px;
+        margin: 10px 10px 10px 0;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo p {
+        font-size: 16px;
+        max-width: 500px;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthImgOne {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthImgTwo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    body #wrapper main  #deliveryInformation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body #wrapper main #deliveryInformation div img {
+        width: 80px;
+        height: 80px;
+    }
+
+    body #wrapper main #deliveryInformation div h3 {
+        font-size: 26px;
+    }
+
+    body #wrapper main #deliveryInformation div span {
+        font-size: 18px;
+    }
+
+    body #wrapper main #latestNews #latestNewsElements {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body #wrapper main #latestNews #latestNewsElements div {
+        width: 60%;
+    }
+
+    body #wrapper main #latestNews #latestNewsElements div img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    body #wrapper #popUpSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body #wrapper #popUpSection span {
+        padding: 0;
+        margin: 10px;
+    }
+
+    body #wrapper main #good4meDeal #good4meDealProducts  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body #wrapper main #good4meDeal #good4meDealProducts div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        margin: auto;
+    }
+
+    body #wrapper main #good4meDeal #good4meDealProducts div img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    body #wrapper main #ourProducts #ourProductsItems {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body #wrapper main #ourProducts #ourProductsItems div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        margin: auto;
+    }
+
+    body #wrapper main #ourProducts #ourProductsItems div img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    body #wrapper main #realReviews #realReviewsSections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body #wrapper main #realReviews #realReviewsSections #realReviewsSectionLeft {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    body #wrapper main #realReviews #realReviewsSections #realReviewsSectionRight img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    body #wrapper main #shopAll #shopAllItems {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body #wrapper main #shopAll #shopAllItems div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        margin: auto;
+    }
+
+    body #wrapper main #shopAll #shopAllItems div img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    body #wrapper main #newsLetterAndLinks #newsLetterAndLinksSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body #wrapper main #newsLetterAndLinks .newsLetterAndLinksDivWithForm form {
+        display: contents;
+    }
+
+    body #wrapper footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body #wrapper footer div:nth-child(1) {
+        margin-top: 20px;
+    }
+
+    body #wrapper footer div:nth-child(3) {
+        margin-bottom: 20px;
+    }
+
+    body #wrapper footer div:nth-child(3) img {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body #wrapper header .logoPicture {
+        width: 100px;
+        height: 30px;
+        padding: 10px 10px 10px 40px;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo {
+        padding: 0;
+        margin: auto;
+        align-items: center;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo button {
+        margin-left: -25px;
+    }
+
+    body #wrapper main #takeControlOfYourHealth div {
+        width: 80%;
+    }
+
+    body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo {
+        width: 90%;
+        display: flex;
+        text-align: center;
+    }
+
+    body #wrapper main #takeControlOfYourHealth img {
+        width: 200px;
+    }
+}
+
+

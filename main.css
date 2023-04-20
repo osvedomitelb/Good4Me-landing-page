@@ -44,13 +44,54 @@ body #wrapper header nav ul {
 }
 
 body #wrapper header nav ul li a{
-    padding: 0 20px;
+    margin: 20px;
+    padding: 0 10px;
     text-decoration: none;
     color: black;
 }
 
+body #wrapper header nav ul .ulLiOne {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+
+body #wrapper header nav ul .ulLiTwo {
+    position: absolute;
+    top: 85px;
+    left: 450px;
+}
+
+body #wrapper header nav ul .ulLiThree {
+    position: absolute;
+    top: 60px;
+    left: 500px;
+}
+
+body #wrapper header nav ul .ulLiFour {
+    position: absolute;
+    top: 85px;
+    left: 550px;
+}
+
+body #wrapper header nav ul .ulLiFive {
+    position: absolute;
+    top: 60px;
+    left: 640px;
+}
+
+body #wrapper header nav ul .ulLiSix {
+    position: absolute;
+    top: 85px;
+    left: 735px;
+}
+
 body #wrapper header nav ul li a:hover {
+    padding: 5px;
     cursor: pointer;
+    border: 1px solid #eb5017;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 body #wrapper header div {
@@ -65,7 +106,13 @@ body #wrapper header .headerIcon {
     width: 22px;
     height: 22px;
     vertical-align: center;
-    padding: 0 5px;
+    padding:5px;
+}
+
+body #wrapper header .headerIcon:hover {
+    cursor:pointer;
+    border: 1px solid #eb5017;
+    border-radius: 10px;
 }
 
 /*************************mainProduct Section**************************/
@@ -795,6 +842,13 @@ body #wrapper footer {
 
     body #wrapper header .menuIcon {
         display: inline;
+        padding: 5px;
+    }
+
+    body #wrapper header .menuIcon:hover {
+        cursor:pointer;
+        border: 1px solid #eb5017;
+        border-radius: 10px;
     }
 
     body #wrapper main #mainProductSection {
@@ -918,6 +972,12 @@ body #wrapper footer {
 
 @media screen and (max-width: 750px) {
 
+    body #wrapper header .logoPicture {
+        width: 100px;
+        height: 30px;
+        padding: 10px 10px 10px 40px;
+    }
+
     body #wrapper #popUpSection {
         flex-direction: column;
         align-items: center;
@@ -1033,11 +1093,6 @@ body #wrapper footer {
 }
 
 @media screen and (max-width: 450px) {
-    body #wrapper header .logoPicture {
-        width: 100px;
-        height: 30px;
-        padding: 10px 10px 10px 40px;
-    }
 
     body #wrapper main #takeControlOfYourHealth #takeControlOfYourHealthInfo {
         padding: 0;

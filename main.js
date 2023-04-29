@@ -1,5 +1,6 @@
 let slider = tns({
     container : ".good4meSliderMy-Slider",
+    "items" : "1",
     "slideBy" : "1",
     "speed" : 400,
     "nav" : false,
@@ -8,7 +9,7 @@ let slider = tns({
     autoplayButtonOutput : false,
     responsive : {
         1600: {
-            items : 4,
+            items : 6,
             gutter : 20
         },
         1000: {
@@ -25,6 +26,15 @@ let slider = tns({
         }
     }
 });
+
+
+
+document.querySelectorAll(".slideBig").forEach(slide => slide.addEventListener("click", function () {
+    let activeImg = document.querySelector("div[data-active]");
+    if (activeImg.firstElementChild.className == "img") activeImg.firstElementChild.className = "bigPhoto";
+    else if (activeImg.firstElementChild.className == "bigPhoto") activeImg.firstElementChild.className = "img";
+    console.log(activeImg);
+}));
 
 
 
